@@ -16,7 +16,9 @@ public:
 };
 ```
 Elementos:
-* Dato a almacenar* Enlace nodo izquierdo* Enlace a nodo izquierdo
+1. Dato a almacenar
+2. Enlace nodo izquierdo
+3. Enlace a nodo izquierdo
 
 Esta es la clase Arbol la cual tendra la logica del mismo.
 
