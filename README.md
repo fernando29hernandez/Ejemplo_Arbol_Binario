@@ -2,10 +2,10 @@
 
 Se utiliza para ya no llamar de la forma std::cout y otra instruccion que necesita de esta.
 
-'using namespace std;'
+```using namespace std;```
 
 Se esta la creacion de su clase nodo que usaremos para el arbol binario
-'class Node {
+```class Node {
 public:
     Node *n_der,*n_izq;
     int data;
@@ -14,10 +14,10 @@ public:
         n_izq = n_der = NULL;
     }
 };
-'
+```
 Esta es la clase Arbol la cual tendra la logica del mismo.
 
-'
+```
 class tree {
 public:
     Node* root;
@@ -42,11 +42,12 @@ public:
     
     
 };
-'
+```
 
 Metodo insertar de la clase arbol. Se tiene que implementar de la forma nombre_clase::nombre_metodo(){CUERPO}
 
-'bool tree :: insert(int item, Node *raiz_actual) {
+```
+bool tree :: insert(int item, Node *raiz_actual) {
     if (root == NULL) {
         root = new Node(item);
         return true;
@@ -70,11 +71,11 @@ Metodo insertar de la clase arbol. Se tiene que implementar de la forma nombre_c
         return false;
     }
 }
-'
+```
 
 Los 3 tipos de recorridos vistos en el laboratorio
 
-'
+```
 void tree :: inorder( Node *root) {
     if (root != NULL) {
         inorder(root -> n_izq);
@@ -103,12 +104,12 @@ void tree :: postorder( Node *root) {
     }
     
 }
+```
 
 
-'
 Y probamos nuestro arbol desde el main .
 
-'
+```
 int main()
 {
     tree mi_arbolito;
@@ -125,8 +126,5 @@ int main()
     mi_arbolito.postorder();
     cout << "NULL\n";
 }
-
-
-
-'
+```
 
