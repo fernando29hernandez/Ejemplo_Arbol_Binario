@@ -51,6 +51,12 @@ public:
 
 Metodo insertar de la clase arbol. Se tiene que implementar de la forma nombre_clase::nombre_metodo(){CUERPO}
 
+Considerando 3 casos posibles:
+1.  Cuando raiz actual es nula
+2.  Cuando valor a insertar es menor al de la raiz actual(Si es nulo el hijo izquierdo se crea alli sino llamada recursiva)
+3.  Cuando valor a insertar es mayor al de la raiz actual(Si es nulo el hijo derecho se crea alli sino llamada recursiva)
+
+
 ```
 bool tree :: insert(int item, Node *raiz_actual) {
     if (root == NULL) {
