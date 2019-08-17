@@ -1,5 +1,5 @@
 # Ejemplo_Arbol_Binario
-
+## Laboratorio de Estructuras de datos Seccion B Segundo Semestre 2019
 Se utiliza para ya no llamar de la forma std::cout y otra instruccion que necesita de esta.
 
 ```using namespace std;```
@@ -138,4 +138,6 @@ int main()
     cout << "NULL\n";
 }
 ```
+Pagina Utilizada para el testeo de C++:
 
+[C++ en linea](https://www.onlinegdb.com/online_c++_compiler)
