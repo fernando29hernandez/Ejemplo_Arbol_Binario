@@ -4,7 +4,7 @@ Se utiliza para ya no llamar de la forma std::cout y otra instruccion que necesi
 
 ```using namespace std;```
 
-Se esta la creacion de su clase nodo que usaremos para el arbol binario
+Sea esta la creación de la clase nodo que usaremos para el arbol binario
 ```class Node {
 public:
     Node *n_der,*n_izq;
